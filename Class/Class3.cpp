@@ -1,0 +1,126 @@
+#include <iostream>
+using namespace std;
+
+
+
+// Switch Case
+
+int main(){
+
+// int day = 5;
+// switch(day){ 
+//     case 1: {                          
+//         cout << "Monday" << endl;
+//         break;
+//     }
+//     // Agr multiple statement run karana hai to curly bracket lagana compulsory h wrna skip kr skte ho 
+
+//      case 2: {                          
+//         cout << "Tuesday" << endl;
+//         break;
+//     }
+
+//      case 3: {                          
+//         cout << "Wednesday" << endl;
+//         break;
+//     }
+
+//      case 4: {                          
+//         cout << "Thursday" << endl;
+//         break;
+//     }
+
+//      case 5: {                          
+//         cout << "Friday" << endl;
+//         break;
+//     }
+
+//      case 6: {                          
+//         cout << "Saturday" << endl;
+//         break;
+//     }
+
+//  case 7: {                          
+//         cout << "Sunday" << endl;
+//         break;
+//     }
+
+// default : {
+//     cout << "Invalid Input" << endl;
+// }
+// }
+
+
+
+
+
+
+
+
+
+
+
+int day = -7 ;
+switch(day){ 
+    case 1: {                          
+        cout << "Monday" << endl;
+        break;
+    }
+    
+     case 2: {                          
+        cout << "Tuesday" << endl;
+        break;
+    }
+
+     case 3: {                          
+        cout << "Wednesday" << endl;
+        break;
+    }
+
+     case 4: {                          
+        cout << "Thursday" << endl;
+        break;
+    }
+
+     case 5: {                          
+        cout << "Friday" << endl;
+        break;
+    }
+
+     case 6: {                          
+        cout << "Saturday" << endl;
+        break;
+    }
+
+ case 7: {                          
+        cout << "Sunday" << endl;
+        break;
+    }
+
+default : {
+    cout << "Invalid Input" << endl;
+}
+}
+
+
+
+
+
+
+/*   Cases Of Switch
+ 1 - Unique Cases
+ 2 - Value Should Be Constant ( Char , Integer )
+ 3 - Floating Value Can't Pass
+ 4 - Break Is Not Compulsory ( but agr break nhi lagaoge to age wala me bina ruke chala jaega )
+it is called fall through. 
+fall through - switch me agr aapne break nhi lagaya to aapke cases fall hote jayege
+ jb tk usko break nhi milega is chiz ko kehte h fall through 
+ 5 - Default lagana is not compulsory.    */
+
+
+
+
+
+
+    return 0;
+}
