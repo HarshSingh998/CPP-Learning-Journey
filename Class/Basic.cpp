@@ -1,14 +1,19 @@
 
-// Programme Ka Starting Point. 
-int main (){
 
+// Programme Ka Starting Point. 
+
+int main (){
 }
+
+
 
 // Agr Mene 1000 Line Ka Code Likha Hua Hai to uss code me starting point int main function hoga
 // to usko pta kiya jayega ki wo kaha pr hai or wha se code run karna start krenge. 
 
-// agr int main ke baad {} bracket shows that jo bhi code in bracket ke andr likha hoga wo 
+
+// Agr int main ke baad {} bracket shows that jo bhi code in bracket ke andr likha hoga wo 
 // int main ki property yani ( usi ka maal h) yaa int main ko belong krta h. 
+
 
 
 
@@ -20,24 +25,25 @@ int main (){
 
 int main () {
 
-
 cout << "Namaste Duniya" <<endl;
 
     return 0;
 }
 
-
 // Isme Error aayega because Compiler Ko btana padega ki cout kya chiz hai. 
 
 
-usign namespace std;   //  ->   Ye dictionary hai 
+
+
+usign namespace std;   //  ->>>   Ye dictionary hai 
 // std wali dictionary kaha padi hai to iske liye header file ko include krna padega 
 #include <iostream>
 
 
 
 
-cout ka use krna ke liye ye dono line likhna padega 
+
+// cout ka use krna ke liye ye dono line likhna padega 
 #include <iostream>
 using namespace std;
 
@@ -52,23 +58,11 @@ using namespace std;
 
 
 // Alternative of endl is '\n'. 
-// Alternative of using name space std is std::cout << message << std::endl;
-
-
-// #include <iostream>
-// In C++, preprocessor directives are special instructions that are processed before the actual compilation
-
-
+// Alternative of using name space std is ->>  std::cout << message << std::endl;
 
 
 
 #include <iostream>
-using namespace std;
+// In C++, preprocessor directives are special instructions that are processed before the actual compilation
 
-int main(){
-
-    cout << " Namaste Duniya " << endl;
-
-    return 0;
-}
 
