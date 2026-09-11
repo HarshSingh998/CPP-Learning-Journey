@@ -15,9 +15,9 @@
 
 // int main(){
 
-// int n = 5;
-// for(int i = 1 ; i <= 5 ; i++ ){
-//     cout << "Hello" << endl ;  }
+// // int n = 5;
+// // for(int i = 1 ; i <= 5 ; i++ ){
+// //     cout << "Hello" << endl ;  }
 
 
 
@@ -25,6 +25,11 @@
 // int n = 50;
 // for(int i = 1 ; i <= n ; i++ ){
 //     cout << "Hello" << endl ; }
+
+
+
+//     return 0;
+// }
 
 
 
@@ -199,10 +204,6 @@ while (n > 0){
 }
     n = copy;
 cout << ((sum==n) ? "Armstrong Number" : "Not A Armstrong Number \n" ) ;
-
-
-
-
 
 
 
