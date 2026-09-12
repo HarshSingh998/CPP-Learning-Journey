@@ -66,3 +66,19 @@ using namespace std;
 // In C++, preprocessor directives are special instructions that are processed before the actual compilation
 
 
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+    cout << "Namaste Harsh" << endl;
+
+    return 0;
+}
+
