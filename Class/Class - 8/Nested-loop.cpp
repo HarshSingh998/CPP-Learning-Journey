@@ -39,7 +39,7 @@ int main (){
 
 
 
-
+ 
 
     int n = 5;
 
@@ -49,6 +49,14 @@ int main (){
     }
     cout << endl;
     }
+
+
+
+
+
+
+// Outer loop ( i ) is responsible for number of rows. 
+// Inner loop ( j ) is responsible for number of columns.
 
 
 
