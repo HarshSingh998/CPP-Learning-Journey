@@ -174,3 +174,56 @@ cout << ((sum==n) ? "Armstrong Number" : "Not A Armstrong Number \n" ) ;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Counting A Number
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+    int n;
+    cout << "Enter A Number :-  ";
+    cin >> n;
+    int i = 1;
+    while (i<=n){
+        cout << "1" << endl;
+        i++;
+    }
+
+
+
+
+
+    int n ;
+    cout << "Enter A Number :-  ";
+    cin >> n;
+    int i = 1;
+    while (i<=n){
+        cout << i << endl;
+        i++;
+    }
+
+
+
+    return 0;
+}
+
