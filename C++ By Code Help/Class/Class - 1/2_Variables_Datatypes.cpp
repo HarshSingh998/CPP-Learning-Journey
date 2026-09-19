@@ -72,9 +72,9 @@ int main() {
 
 
 
-""" C++ Datatypes - Primitive Datatypes or Built-in Datatypes ( Primitive Datatypes - int, float, double, char, bool , void )
+/* C++ Datatypes - Primitive Datatypes or Built-in Datatypes ( Primitive Datatypes - int, float, double, char, bool , void )
                     Derived Datatypes
-                    User-defined Datatypes """
+                    User-defined Datatypes */
                 
 
 
