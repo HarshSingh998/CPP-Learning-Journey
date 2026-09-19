@@ -28,6 +28,7 @@ int main() {
 /*
 apke compiler ko smajh me nhi aarha ki cout kya hai, isliye apko compiler ko batana padega ki cout kya hai (cout ka full form hai console output) isliye apko #include <iostream> likhna padega (ye iostream library ko include kar raha hai jisme cout defined hai)
 iostream is header file (ye header file hai jisme input output ke liye functions defined hai) aapko input ke related output ke related standard library ke related kuch bhi use karna ho to aapko iostream ka use karna padega
+
 using namespace std; ye bata raha hai ki apko std namespace ka use karna hai (standard namespace me cout defined hai) agar apko std namespace ka use nhi karna hai to apko cout ke aage std::cout likhna padega (std::cout ka full form hai standard console output)
 cout aapka ek identifier hai jiske through aap console me output print krte ho ya ouput kr rhe hai (cout ka full form hai console output)
 */
@@ -52,3 +53,12 @@ alternatively, aap \n ka use bhi kar sakte ho ( \n ka matlab hai new line) aur y
 
 
 // semicolon (;) ka matlab hai ki ye statement khatam ho gaya (semicolon ka full form hai statement terminator) aur ye bata raha hai ki ye statement khatam ho gaya aur ab agla statement start hoga
+
+
+
+
+// For Single Line Comment ( // ) ->>  (double forward slash) for single line comment (single line comment ka matlab hai ki ye ek line ka comment hai aur ye compiler ignore karega) aur ye bata raha hai ki ye ek comment hai aur isko compiler ignore karega (compiler ka matlab hai ki ye code ko compile karega aur isko ignore karega). 
+
+// For Multi Line Comment ( /* */ ) ->>  for multi line comment (multi line comment ka matlab hai ki ye ek se zyada line ka comment hai aur ye compiler ignore karega) aur ye bata raha hai ki ye ek comment hai aur isko compiler ignore karega (compiler ka matlab hai ki ye code ko compile karega aur isko ignore karega). 
+
+
