@@ -1,5 +1,5 @@
 
-// Class - 6
+// Class - 4
 
 #include <iostream>
 using namespace std;
