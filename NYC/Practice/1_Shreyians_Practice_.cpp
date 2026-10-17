@@ -173,7 +173,8 @@ int main() {
 /*
 
 Calculate Area of a Rectangle 
-( Write a program to take the length and breadth of a rectangle as input and calculate its area using the formula: Area = length * breadth. )
+( Write a program to take the length and breadth of a rectangle as input and calculate its area using the formula: 
+ Area = length * breadth. )
 
 Sample Input 1: 5 10
 Expected Output 1: 50
