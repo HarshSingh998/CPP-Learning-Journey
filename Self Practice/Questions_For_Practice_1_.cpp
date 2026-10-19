@@ -1,5 +1,6 @@
 
 
+
 /*
 Question:1 ->> Floyd's Triangle
 
@@ -265,4 +266,9 @@ Example: If N = 5, the output should be:
 
 Task: Use nested loops to print the multiplication table of each row number.
 */
+
+
+
+
+
 
