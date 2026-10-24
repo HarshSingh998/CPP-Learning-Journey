@@ -31,7 +31,33 @@ int main(){
 
 
 
-// Check Number Sign
+// Check Number Sign ( Write a program to check whether an integer is Positive, Negative, or Zero using conditional statements. )
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num > 0) {
+        cout << "Positive";
+    }
+    else if (num < 0) {
+        cout << "Negative";
+    }
+    else {
+        cout << "Zero";
+    }
+
+    return 0;
+}
+
+
+
+
+
+
 
 
 
