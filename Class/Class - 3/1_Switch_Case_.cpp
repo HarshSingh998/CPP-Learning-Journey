@@ -135,5 +135,17 @@ or aap string , float, double or non integral values ka use nahi kr skte hai.
 
 
 
+/*   Cases Of Switch
+ 1 - Unique Cases
+ 2 - Value Should Be Constant ( Char , Integer )
+ 3 - Floating Value Can't Pass
+ 4 - Break Is Not Compulsory ( but agr break nhi lagaoge to age wala me bina ruke chala jaega )
+it is called fall through. 
+fall through - switch me agr aapne break nhi lagaya to aapke cases fall hote jayege
+ jb tk usko break nhi milega is chiz ko kehte h fall through 
+ 5 - Default lagana is not compulsory.    */
+
+
+
 
 
