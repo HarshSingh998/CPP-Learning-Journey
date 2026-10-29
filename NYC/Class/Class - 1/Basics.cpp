@@ -92,10 +92,3 @@ int main () {
 
 
 
-/* Programming Language 2 Type ki hoti h
-1 - C++ , JAVA , C - Inme DataType Pehle Se btana pdta h
-2 - Python , JavaScript - Inme DataType Pehle Se btana nhi pdta h wo run time pe khud decide kr leta 
-Isliye Second Wali Comparatively Slow hoti h
-Or First Wali Fast hoti h
-1 - Statically Typed Language (DataType is declared at compile time) (CPP, JAVA, C)
-2 - Dynamically Typed Language (DataType is declared at runtime) (Python, JavaScript) */

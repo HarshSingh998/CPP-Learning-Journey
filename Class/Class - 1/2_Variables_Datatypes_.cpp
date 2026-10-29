@@ -1,4 +1,13 @@
 
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------- Part 1 ---------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
 // Data ko store karne ke liye variables ka use kiya jata hai (variable ka matlab hai data ko store karne ke liye ek container) aur variable ko define karne ke liye hume uska datatype specify karna padta hai (datatype ka matlab hai ki variable me kis type ka data store hoga)
 
 
@@ -15,9 +24,6 @@ int age = 25;
 // Datatypes Variable = Value;
 
 // Datatypes - The Datatypes specifies the size and type of information the variable will store. 
-
-
-
 
 
 
@@ -46,7 +52,6 @@ int main() {
     // Manipulation
     age = 20;
     cout << age << endl;
-
 
 
     return 0;
@@ -167,3 +172,97 @@ int main() {
 
 // Memory ke andr 1 Byte hi smallest addresable space h. that's why boolean take 1 bytes not 1 bit. 
 
+
+
+
+
+
+
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------- Part 2 ---------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
+/*    DataType In CPP - 3 Types
+1 - Primitive DataType (int, float, double, char, bool , void)
+2 - Derived DataType (Array, Pointer, Function , reference)
+3 - User Defined DataType (Class, Structure, Union, Enum, Typedef).     */
+
+
+
+
+
+// 1 Bits - 0 , 1
+// 1 Byte - 8 Bits
+// 1 Kilobyte - 1024 bytes
+// 1 MB - 1024 KB
+
+
+
+
+//Decimal number ko floating point number kehte h or ye floating point number 2 types ke hote h
+//1 - Float (4 Bytes) - 6 to 7 Digits Precision
+//2 - Double (8 Bytes) - 15 to 16 Digits Precision
+
+
+
+
+//Numbers ke 3 Types Hote H ( Without Decimal Point )
+//1 - Integer (int) - 4 Bytes
+//2 - Long Integer (long int) - 8 Bytes
+//3 - Short Integer (short int) - 2 Bytes
+
+
+
+
+//char me 1 Character Store hota h or ye 1 Byte ka hota h 
+//( a , 1 , @ , # , $ , % , ^ , & , * , ( , ) , _ , + , - , = )
+
+
+
+
+//bool me 2 Value Store hoti h ( true , false ) or ye 1 Byte ka hota h
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+
+int i = 10;
+long l = 20;
+short s = 30;
+float f = 40.5;
+double d = 50.5;
+char c = 'A';
+bool b = true;
+
+cout << "Integer : " << i << endl;
+cout << "Long Integer : " << l << endl;
+cout << "Short Integer : " << s << endl;
+cout << "Float : " << f << endl;
+cout << "Double : " << d << endl;
+cout << "Character : " << c << endl;
+cout << "Boolean : " << b << endl;
+
+
+
+
+
+
+//Garbage Value - ( Random Value ) 
+//Jab aap variable ko declare krte ho or usko initialize nhi krte ho to usme garbage value store hoti h
+
+int i;
+cout << i << endl;
+float f;
+cout << f << endl;
+
+    return 0;
+}
