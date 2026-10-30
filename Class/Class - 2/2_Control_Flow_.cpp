@@ -1,4 +1,14 @@
 
+
+// Control Flow Statement OR Conditional Statement
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------- Part - 1  ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
 // Decision Making ->>>
 
 // If Statement Syntax ( Rule ) to buy Scorpio
@@ -182,3 +192,248 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------- Part - 2  ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
+// Who Can Give Vote  ->>>
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int age = 19;
+
+if ( age >= 18 ){
+    cout << " Valid Voter" << endl;
+}
+else {
+    cout << " Not A Valid Voter" << endl;
+}
+
+return 0;
+}
+
+
+
+
+
+
+// In Two Number Which Is Greater 
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int a = 7;
+int b = 10;
+if ( a > b ){
+    cout << a << endl;
+}
+else {
+    cout << b << endl;
+}
+
+return 0;
+}
+
+
+
+
+// else if ladder use in multiple condition and sab me se jo true ho whi chle baki na chle 
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int a = 10 , b = 20 ;
+
+if ( a <= 50 ){
+    cout << "Line 1" << endl;
+}
+
+else if ( 10 > 7){
+    cout << "Line 2" << endl;
+}
+
+else if ( 100 > 7){
+    cout << "Line 3" << endl;
+}
+
+else if ( 10 > 17){
+    cout << "Line 4" << endl;
+}
+
+else {
+    cout << "Last else" << endl;
+}
+
+return 0;
+}
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int a = 10 , b = 20 ;
+
+if ( a > 50 ){
+    cout << "Line 1" << endl;
+}
+
+else if ( 10 < 7){
+    cout << "Line 2" << endl;
+}
+
+else if ( 100 > 7){
+    cout << "Line 3" << endl;
+}
+
+else if ( 10 > 17){
+    cout << "Line 4" << endl;
+}
+
+else {
+    cout << "Last else" << endl;
+}
+
+return 0;
+}
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int a = 10 , b = 20 ;
+
+if ( a > 50 ){
+    cout << "Line 1" << endl;
+}
+
+else if ( 10 < 7){
+    cout << "Line 2" << endl;
+}
+
+else if ( 100 < 7){
+    cout << "Line 3" << endl;
+}
+
+else if ( 10 > 17){
+    cout << "Line 4" << endl;
+}
+
+else {
+    cout << "Last else" << endl;
+}
+
+return 0;
+}
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int a = 10 , b = 20 ;
+
+if ( a < 50 ){
+    cout << "Line 1" << endl;
+}
+
+if ( 10 > 7){
+    cout << "Line 2" << endl;
+}
+
+if ( 100 > 7){
+    cout << "Line 3" << endl;
+}
+
+if ( 10 < 17){
+    cout << "Line 4" << endl;
+}
+
+else {
+    cout << "Last else" << endl;
+}
+
+return 0;
+}
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int a = 10 , b = 20 ;
+
+if ( a < 50 ){
+    cout << "Line 1" << endl;
+}
+
+if ( 10 > 7){
+    cout << "Line 2" << endl;
+}
+
+if ( 100 > 7){
+    cout << "Line 3" << endl;
+}
+
+if ( 10 > 17){
+    cout << "Line 4" << endl;
+}
+
+else {
+    cout << "Last else" << endl;
+}
+
+return 0;
+}
+
+
+
+
+
+
+// Difference b/w IF Ladder And Else Ladder -:  If Is independent but else if is dependent 
