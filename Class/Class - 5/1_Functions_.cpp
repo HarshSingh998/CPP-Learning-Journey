@@ -49,33 +49,42 @@ In Non-Void Function, we return some value from the function. ( int, float, char
 
 
 
-Function Anatomy ->
+! Function Anatomy ->
 
 return_type function_name(input_parameter_list) {
-    // Function Body
-    // Code to be executed
+
+*    Function Body
+*    Code to be executed
+
     return value; // Optional
 }
 
 
 
-Declaration of Function -
+
+
+! Declaration of Function -
+
 return_type function_name(input_parameter_list);
 
-// Function Declaration -
+* Function Declaration -
 int getSum(int a, int b); 
 
 
 
 
-Definition of Function -
+
+! Definition of Function -
+
 return_type function_name(input_parameter_list) {
-    // Function Body
-    // Code to be executed
+
+*    Function Body
+*    Code to be executed
+
     return value; // Optional
 }
 
-// Function Definition - 
+* Function Definition - 
 int getSum(int a, int b) { 
     int totalSum = a + b;
     return totalSum;
