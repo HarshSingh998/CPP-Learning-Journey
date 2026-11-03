@@ -228,3 +228,168 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------------------------------
+                    OPERATOR PRECEDENCE
+------------------------------------------------------------
+
+Definition:
+Operator precedence determines which operator is evaluated
+first in an expression.
+
+Example:
+int ans = 5 - 2 * 6;
+
+Calculation:
+5 - 2 * 6
+5 - 12
+-7
+
+------------------------------------------------------------
+IMPORTANT OPERATOR PRECEDENCE
+------------------------------------------------------------
+
+1.  ()                         -> Parentheses
+2.  !, ~, +, -, ++, --         -> Unary Operators              R -> L
+3.  *, /, %                    -> Multiplicative               L -> R
+4.  +, -                        -> Additive                    L -> R
+5.  <<, >>                      -> Bitwise Shift               L -> R
+6.  <, <=, >, >=                -> Relational                  L -> R
+7.  ==, !=                      -> Equality                    L -> R
+8.  &                            -> Bitwise AND                L -> R
+9.  ^                            -> Bitwise XOR                L -> R
+10. |                            -> Bitwise OR                 L -> R
+11. &&                           -> Logical AND                L -> R
+12. ||                           -> Logical OR                 L -> R
+13. ?:                           -> Ternary                    R -> L
+14. =, +=, -=, *=, /=, %=        -> Assignment                 R -> L
+
+------------------------------------------------------------
+IMPORTANT POINTS
+------------------------------------------------------------
+
+1. Higher precedence operators are evaluated first.
+
+2. Operators with equal precedence follow associativity.
+
+3. Most arithmetic operators follow Left to Right.
+
+4. Assignment operators follow Right to Left.
+
+5. *, /, % have equal precedence.
+
+6. +, - have equal precedence.
+
+7. && has higher precedence than ||.
+
+8. Parentheses () can change the order of evaluation.
+
+------------------------------------------------------------
+ASSOCIATIVITY
+------------------------------------------------------------
+
+Left to Right:
+10 / 2 * 5
+5 * 5
+25
+
+Right to Left:
+a = b = c = 10;
+
+------------------------------------------------------------
+REMEMBER
+------------------------------------------------------------
+
+Precedence  -> Priority
+Associativity -> Direction
+
+------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------------------------------
+                  VARIABLE SCOPE
+------------------------------------------------------------
+
+Definition:
+Scope determines where a variable can be accessed
+or used in a program.
+
+------------------------------------------------------------
+TYPES OF VARIABLE SCOPE
+------------------------------------------------------------
+
+1. Local Scope
+   -> Variable declared inside a function or block or if else. 
+   -> Accessible only within that function or block.
+   -> Example: Variable declared inside main().
+
+2. Global Scope
+   -> Variable declared outside all functions.
+   -> Accessible throughout the file after its declaration.
+   -> Example: Variable declared before main().
+
+------------------------------------------------------------
+EXAMPLE
+------------------------------------------------------------
+
+int x = 10;    // Global Variable
+
+int main() {
+
+    int y = 20;    // Local Variable
+
+    cout << x;    // Accessible
+    cout << y;    // Accessible
+
+    return 0;
+}
+
+------------------------------------------------------------
+IMPORTANT POINTS
+------------------------------------------------------------
+
+1. Local variables are declared inside a block or function or if else.  
+
+2. Global variables are declared outside all functions.
+
+3. Local variables have block scope.
+
+4. Global variables have global scope.
+
+5. Local variables cannot be directly accessed outside
+   their scope.
+
+6. Global variables can be accessed by functions after
+   their declaration, subject to visibility.
+
+------------------------------------------------------------
+
+! Remember:
+- Local Scope → Inside a block { }
+- Global Scope → Outside all functions
+
+*/
