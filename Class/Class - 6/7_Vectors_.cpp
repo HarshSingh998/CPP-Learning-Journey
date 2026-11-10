@@ -16,6 +16,22 @@ Vectors Functions :-
 
 
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+
+    vector <char> vec = {'a', 'b', 'c', 'd', 'e'};
+
+    cout << "Size of vector: " << vec.size() << endl;
+    
+    for(char value : vec) {
+        cout << value << endl;
+    }
+
+    return 0;
+}
 
 
 
@@ -23,6 +39,26 @@ Vectors Functions :-
 
 
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+
+    vector <int> vec ;
+
+    cout << "Size of vector: " << vec.size() << endl;
+    vec.push_back(1);
+    vec.push_back(25);
+    vec.push_back(35);
+    cout << "After Push Back Size of vector: " << vec.size() << endl;
+    
+    for(int value : vec) {
+        cout << value << endl;
+    }
+
+    return 0;
+}
 
 
 
@@ -30,4 +66,62 @@ Vectors Functions :-
 
 
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+
+    vector <int> vec ;
+
+    cout << "Size of vector: " << vec.size() << endl;
+
+    vec.push_back(1);
+    vec.push_back(25);
+    vec.push_back(35);
+    cout << "After Push Back Size of vector: " << vec.size() << endl;
+
+    vec.pop_back();
+    cout << "After Pop Back Size of vector: " << vec.size() << endl;
+    
+    for(int value : vec) {
+        cout << value << endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+
+    vector <int> vec ;
+
+    cout << "Size of vector: " << vec.size() << endl;
+    
+    vec.push_back(1);
+    vec.push_back(25);
+    vec.push_back(35);
+    cout << "After Push Back Size of vector: " << vec.size() << endl;
+
+    vec.pop_back();
+    cout << "After Pop Back Size of vector: " << vec.size() << endl;
+
+    cout << "First Element: " << vec.front() << endl;
+    cout << "Last Element: " << vec.back() << endl;
+
+
+    cout << "Element at index 0: " << vec.at(0) << endl;
+    cout << "Element at index 1: " << vec.at(1) << endl;
+
+    return 0;
+}
 
